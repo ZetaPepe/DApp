@@ -68,7 +68,10 @@
     "@react-three/drei": "latest",
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
     "@fortawesome/free-brands-svg-icons": "^6.7.2",
-    "@fortawesome/react-fontawesome": "^0.2.2"
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@solana/wallet-adapter-react": "^0.10.0",
+    "@solana/wallet-adapter-react-ui": "^0.10.0",
+    "@solana/web3.js": "^1.46.0"
   },
   "devDependencies": {
     "@types/node": "^22",
