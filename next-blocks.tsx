@@ -6,6 +6,7 @@ import { useRef, useState, useEffect } from "react"
 import * as THREE from "three"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faGithub, faTelegram, faTwitter } from "@fortawesome/free-brands-svg-icons"
+import { WalletMultiButton } from '@solana/wallet-adapter-react-ui'
 
 const isMobile = () => {
   if (typeof window === 'undefined') return false
@@ -167,6 +168,9 @@ const Scene = () => {
 export default function Component() {
   return (
     <div className="w-full h-screen bg-gray-900 relative">
+      <div className="absolute top-4 right-4 flex space-x-4 z-50">
+        <WalletMultiButton />
+      </div>
       <div className="absolute top-4 left-4 flex space-x-4 z-50">
         <a 
           href="https://github.com/yourusername" 
