@@ -94,8 +94,8 @@ body {
 }
 
 .wallet-adapter-button {
-  background-color: #A9A9A9 !important; /* 深灰色背景 */
-  color: black !important;
+  background-color: #000000 !important; /* 深灰色背景 */
+  color: white !important;
   border-radius: 6px !important;
   border: none !important;
 }
