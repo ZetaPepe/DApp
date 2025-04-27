@@ -187,7 +187,12 @@ export default function Component() {
         </a>
       </div>
 
-      <Canvas camera={{ position: [10.047021, -0.127436, -11.137374], fov: 50 }}>
+      const isMobileDevice = typeof window !== 'undefined' && /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
+
+      <Canvas camera={{ 
+        position: isMobileDevice ? [12, 0, -16] : [10.047021, -0.127436, -11.137374], 
+        fov: 50 
+      }}>
         <Scene />
       </Canvas>
     </div>
