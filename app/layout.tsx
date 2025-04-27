@@ -3,8 +3,8 @@ import './globals.css';
 import { SolanaWalletProvider } from './wallet-provider'; // ← 引入 Provider
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
+  title: 'PIXRA Beta App',
+  description: 'PIXRA - Bridging Real Assets to the Digital Future',
   generator: 'v0.dev',
 };
 
