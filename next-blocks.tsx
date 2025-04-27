@@ -155,6 +155,8 @@ const Scene = () => {
 }
 
 export default function Component() {
+  const isMobileDevice = typeof window !== 'undefined' && /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
+  
   return (
     <div className="w-full h-screen bg-gray-900 relative">
       <div className="absolute top-2 right-4 flex space-x-4 z-50">
@@ -186,8 +188,6 @@ export default function Component() {
           <FontAwesomeIcon icon={faTwitter} />
         </a>
       </div>
-
-      const isMobileDevice = typeof window !== 'undefined' && /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
 
       <Canvas camera={{ 
         position: isMobileDevice ? [12, 0, -16] : [10.047021, -0.127436, -11.137374], 
