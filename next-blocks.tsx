@@ -198,10 +198,6 @@ export default function Component() {
         </a>
       </div>
 
-      {/* 添加图片 */}
-      <div className="absolute top-[calc(50%-300px)] left-1/2 transform -translate-x-1/2 z-10">
-        <img src="/AI.png" alt="Your Image" className="w-24 h-auto"/>
-      </div>
 
       <Canvas camera={{ position: [10.047021, -0.127436, -11.137374], fov: 50 }}>
         <Scene />
