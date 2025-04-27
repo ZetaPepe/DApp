@@ -190,7 +190,7 @@ export default function Component() {
       </div>
 
       <Canvas camera={{ 
-        position: isMobileDevice ? [12, 0, -16] : [10.047021, -0.127436, -11.137374], 
+        position: isMobileDevice ? [12, 0, -20] : [10.047021, -0.127436, -11.137374], 
         fov: 50 
       }}>
         <Scene />
