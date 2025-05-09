@@ -164,7 +164,7 @@ export default function Component() {
       </div>
       <div className="absolute top-4 left-4 flex space-x-4 z-50">
         <a 
-          href="https://github.com/yourusername" 
+          href="https://github.com/dodufish/PIXRA" 
           target="_blank" 
           rel="noopener noreferrer"
           className="text-white hover:text-gray-400 text-2xl"
@@ -172,15 +172,7 @@ export default function Component() {
           <FontAwesomeIcon icon={faGithub} />
         </a>
         <a 
-          href="https://t.me/yourusername" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          className="text-white hover:text-gray-400 text-2xl"
-        >
-          <FontAwesomeIcon icon={faTelegram} />
-        </a>
-        <a 
-          href="https://twitter.com/yourusername" 
+          href="https://x.com/pixra_ai" 
           target="_blank" 
           rel="noopener noreferrer"
           className="text-white hover:text-gray-400 text-2xl"
